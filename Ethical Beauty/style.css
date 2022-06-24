@@ -461,14 +461,7 @@ blockquote, q {
 	input[type="button"],
 	button,
 	.button {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
-		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+	
 		border-radius: 6px;
 		border: 0;
 		cursor: pointer;
@@ -480,6 +473,7 @@ blockquote, q {
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
+		align-items: center;
 	}
 
 		input[type="submit"].icon,
@@ -666,7 +660,7 @@ blockquote, q {
 
 		select option {
 			color: #4bd8d8;
-			background: #030303;
+			background: #43d6e0;
 		}
 
 		select:focus::-ms-value {
@@ -887,7 +881,7 @@ blockquote, q {
 		}
 
 	.icon {
-		color: #284eca;
+		color: #8ff1f8;
 	}
 
 /* Image */
@@ -989,7 +983,7 @@ blockquote, q {
 					width: 2em;
 					height: 2em;
 					border-radius: 100%;
-					border: solid 2px rgba(255, 255, 255, 0.25);
+					border: solid 2px rgba(10, 10, 10, 0.25);
 				}
 
 			.image.phone:before, .image.phone:after {
@@ -2235,9 +2229,9 @@ blockquote, q {
 /* Header */
 
 	#header {
-	background-color: #e9b554;
-		background-image: url("https://media.istockphoto.com/photos/hair-cutting-tools-and-accessories-on-marble-background-with-space-picture-id1324168834?b=1&k=20&m=1324168834&s=170667a&w=0&h=J9qLHYOpgo_X9lFT594cHkuDe0YOdNSqlSbuobBpoDg=");
-		color: #aacc7e;
+
+		
+		
 		padding: 4.5em 0 2.5em 0 ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
@@ -2250,12 +2244,11 @@ blockquote, q {
 		-moz-justify-content: center;
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
+		
 		justify-content: center;
-		background-position: top left, center center;
-		background-attachment: fixed, fixed;
-		background-size: auto, cover;
+
 		height: 100%;
-		min-height: 35em;
+		
 	}
 
 		#header input[type="submit"],
@@ -2263,9 +2256,9 @@ blockquote, q {
 		#header input[type="button"],
 		#header button,
 		#header .button {
-			background-color:#5ca3e8;
-			color: #ffffff !important;
-			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
+			background-color:#67ddd7;
+			color:white;
+			box-shadow: inset 0 0 0 2px rgba(12, 12, 12, 0.25);
 			align-items: center;
 		}
 
@@ -2821,52 +2814,6 @@ float:right
 		#footer {
 			padding: 3em 1.5em 1em 1.5em ;
 		}
-
-		.fa {  
-			padding: 20px;  
-		  text-align: center;  
-			margin: 5px 2px;  
-			font-size: 30px;  
-			width: 50px;  
-		  }  
-		  .fa-facebook {  
-			background: #3B5998;  
-			color: white;  
-		  }  
-		  .fa-twitter {  
-			background: #55ACEE;  
-			color: white;  
-		  }  
-		  .fa-pinterest {  
-			background: #cb2027;  
-			color: white;  
-		  }  
-		  .fa-linkedin {  
-			background: #007bb5;  
-			color: white;  
-		  }  
-		  .fa-instagram {  
-			background: #125688;  
-			color: white;  
-		  }  
-		  .fa-youtube {  
-			background: #bb0000;  
-			color: white;  
-		  }  
-		  .fa-google {  
-			background: #dd4b39;  
-			color: white;  
-		  }  
-		  .fa-snapchat-ghost {  
-			background: #fffc00;  
-			color: white;  
-			text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
-		  }  
-		  .fa-skype {  
-			background: #00aff0;  
-			color: white;  
-		  }  
-		  .fa:hover {  
-			  opacity: 0.9;  
-		  }  
-		}
+		
+	
+	}
